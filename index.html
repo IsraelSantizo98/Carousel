@@ -10,7 +10,7 @@
 <body>
     <div class="contenedor">
         <main class="contenido-principal">
-            <img class="contenido-principal-imagen" src="assets/universe(1).jpg" alt="">
+            <img class="contenido-principal-imagen" src="assets/universe(1).jpg" alt="Imagen principal">
             <div class="contenido-principal-contenedor">
                 <h1 class="contendido-principal-titulo">Imagen del Universo</h1>
                 <p class="contenido-principal-parrafo">
@@ -23,11 +23,41 @@
         </main>
         <div class="carousel">
             <div class="carousel-contenedor">
-                <button aria-label="Anterior" class="carousel-anterior"></button>
-                <button ></button>
+                <button aria-label="Anterior" class="carousel-anterior">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="carousel-lista">
+                    <div class="carousel-elemento">
+                        <img src="assets/universe(2).jpg" alt="Imagen 2">
+                        <p>Despegue</p>
+                    </div>
+                    <div class="carousel-elemento">
+                        <img src="assets/universe(3).jpg" alt="Imagen 3">
+                        <p>Cielo estrellado</p>
+                    </div>
+                    <div class="carousel-elemento">
+                        <img src="assets/universe(4).jpg" alt="Imagen 4">
+                        <p>Via Lactea</p>
+                    </div>
+                    <div class="carousel-elemento">
+                        <img src="assets/universe(5).jpg" alt="Imagen 5">
+                        <p>Cielo impresionante</p>
+                    </div>
+                    <div class="carousel-elemento">
+                        <img src="assets/universe(5).jpg" alt="Imagen 5">
+                        <p>Cielo impresionante</p>
+                    </div>
+                </div>
+                <button aria-label="Siguiente" class="carousel-siguiente">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            <div role="tablist" class="carousel-indicadores">
             </div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script src="https://kit.fontawesome.com/1085598771.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

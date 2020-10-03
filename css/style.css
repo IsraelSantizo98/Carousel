@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1d1d1f;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.contenedor{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+/*--Estilos main--*/
+.contenido-principal{
+    margin: 0 0 50px 0;
+    display: flex;
+    align-items: center;
+}
+.contenido-principal-imagen{
+    vertical-align: top;
+    margin: 0 20px 0 0;
+    width: 50%;
+    max-width: 500px;
+}
+.contenido-principal-contenedor{
+    width: 50%;
+}
+.contenido-principal-titulo{
+    font-weight: normal;
+    font-size: 20px;
+}
+.contendido-principal-parrafo{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    color: #cfcfcf;
+}
