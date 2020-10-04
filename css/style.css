@@ -39,3 +39,66 @@ body{
     line-height: 30px;
     color: #cfcfcf;
 }
+/*--Carousel--*/
+.carousel-contenedor{
+    position: relative;
+}
+.carousel-anterior,
+.carousel-siguiente{
+    position: absolute;
+    /*para poder modificar el alto y el ancho*/
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    /*por el tamaño del alto del boton*/
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    opacity: 20%;
+}
+.carousel-anterior:hover,
+.carousel-siguiente:hover{
+    opacity: 100%;
+}
+.carousel-anterior{
+    left: -30px;
+}
+.carousel-siguiente{
+    right: -30px;
+}
+/*Para quitar el scroll en firefox*/
+.carousel-lista{
+    overflow: hidden;
+}
+.carousel-elemento{
+    text-align: center;
+}
+.carousel-indicadores .glider-dot{
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    opacity: .2;
+    border-radius: 0;
+}
+.carousel-indicadores .glider-dot:hover{
+    opacity: 0.5;
+}
+.carousel-indicadores .glider-dot:active{
+    opacity: 1;
+}
+@media screen and (max-width: 768px){
+    body{
+        padding: 40px 0;
+    }
+    .contenido-principal{
+        flex-direction: column;
+    }
+    .contenido-principal > *{
+        width: 100%;
+    }
+}
