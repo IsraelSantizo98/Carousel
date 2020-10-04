@@ -10,6 +10,9 @@ body{
     display: flex;
     align-items: center;
 }
+img{
+    width: 100%;
+}
 .contenedor{
     max-width: 1200px;
     width: 90%;
@@ -88,7 +91,7 @@ body{
 .carousel-indicadores .glider-dot:hover{
     opacity: 0.5;
 }
-.carousel-indicadores .glider-dot:active{
+.carousel-indicadores .glider-dot.active{
     opacity: 1;
 }
 @media screen and (max-width: 768px){
